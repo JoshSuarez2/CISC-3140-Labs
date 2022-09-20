@@ -1,0 +1,50 @@
+Joshua Suarez
+1. Terminal App: Windows Terminal 
+Version: 1.14.2282.0
+Path: "C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.14.2282.0_x64_8wekyb3d8bbwe\WindowsTerminal.exe"
+
+2. Git Version Control
+Helpful video: https://www.youtube.com/watch?v=zUHRNLVpoIE
+Version: 2.37.3
+Path: "C:\Program Files\Git\git-bash.exe"
+Download Info/ Documentation
+*https://git-scm.com/download/win 
+*https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+3.NodeJS and NPM 
+Helpful Links: https://www.guru99.com/download-install-node-js.html
+		   https://phoenixnap.com/kb/install-node-js-npm-on-windows
+Version: 
+C:\Users\joshs>node -v
+v16.17.0
+C:\Users\joshs>npm -v
+8.15.0
+Path: "C:\Program Files\nodejs\node.exe"
+Download info
+*https://nodejs.org/en/download/
+
+4. Repository Configurations
+*https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup
+Notes:
+	-Git comes with  a tool called git config that lets you get and set configuration variables that 
+	control all aspects of how Git looks and operates. These variables can be stored in three different places:
+	-config file in the Git directory (that is, .git/config) of whatever repository you’re currently using: Specific to 
+	that single repository. You can force Git to read from and write to this file with the --local option, but that is in fact 
+	the default. Unsurprisingly, you need to be located somewhere in a Git repository for this option to work properly.
+	-To set user name and email, $ git config --global user.name "John Doe"
+						$ git config --global user.email johndoe@example.com
+	-To set text editor of choice, $ git config --global core.editor emacs
+If you want to check your configuration settings, you can use the git config --list command to list all the settings Git can find at that point:
+user.name=Joshua Suarez
+user.email=joshsuarez.1218@gmail.com
+core.editor=emacs
+init.defaultbranch=main
+
+
+5. Text Editor Emacs
+Helpful videos: https://www.youtube.com/watch?v=m3c56wL0ATI
+		    https://www.youtube.com/watch?v=dsGjLOLjFpA
+Version: emacs-28.2
+Path: C:\Users\joshs\Downloads\emacs-28.2\emacs-28.2\bin
+*https://www.gnu.org/software/emacs/download.html#nonfree
+-----------------------------------------------------------------------------------
