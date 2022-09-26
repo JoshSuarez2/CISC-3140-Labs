@@ -1,0 +1,66 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20220926150317
+Username: LAPTOP-BQFMTB2B\joshs
+RunAs User: LAPTOP-BQFMTB2B\joshs
+Configuration Name: 
+Machine: LAPTOP-BQFMTB2B (Microsoft Windows NT 10.0.22000.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 5796
+PSVersion: 5.1.22000.832
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22000.832
+BuildVersion: 10.0.22000.832
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is Task3Log.txt
+PS C:\Users\joshs\Desktop> mkdir Task3Folder
+
+
+    Directory: C:\Users\joshs\Desktop
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/26/2022   3:04 PM                Task3Folder
+
+
+PS C:\Users\joshs\Desktop> cd.> testFile.txt
+cd.> : The term 'cd.>' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cd.> testFile.txt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (cd.>:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+cd.> : The term 'cd.>' is not recognized as the name of a cmdlet, function, script file, or operable program. Check
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cd.> testFile.txt
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (cd.>:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\joshs\Desktop> copy LabDates.java Task3Folder
+PS C:\Users\joshs\Desktop> move EmptyMoveFile.txt Task3Folder
+PS C:\Users\joshs\Desktop> cd Task3Folder
+PS C:\Users\joshs\Desktop\Task3Folder> dir
+
+
+    Directory: C:\Users\joshs\Desktop\Task3Folder
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----         9/26/2022   3:18 PM              0 EmptyMoveFile.txt
+-a----         9/26/2022   2:30 PM            383 LabDates.java
+
+
+PS C:\Users\joshs\Desktop\Task3Folder> stop-transcript
+**********************
+Windows PowerShell transcript end
+End time: 20220926152200
+**********************
