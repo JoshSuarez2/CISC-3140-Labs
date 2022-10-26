@@ -1,0 +1,4 @@
+The group exercise went well I felt that there was good communication between all of us. Our schedules aligned up relatively 
+well as we would usually get into contact with each other during the night time. We would make a zoom call between us and work
+on the project as a collective unit. We would refer to the GNU Awk manual and regular expressions tutorial to assist us. We would have
+some trouble with the github repository and struggling to add work so we would give awk files to the leader to push them.

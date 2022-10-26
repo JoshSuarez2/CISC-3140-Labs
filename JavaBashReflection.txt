@@ -1,0 +1,6 @@
+In these programs I was to write a function that takes two dates and returns an integer that would show the number of days 
+between the dates. It allows the user to select between the different dates or enter their own. The bash script also counted
+the number of days from today and each due date. The date library allowed me to store the date s while the scanner received the 
+input from the user while the bash script was able to run the program on its own. They both had the same idea but there was somethings
+you could not recreate in bash such as getting the date requested which could then check if maybe it was invalid while bash sees
+that as an error.
